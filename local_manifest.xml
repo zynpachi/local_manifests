@@ -7,13 +7,17 @@
             clone-depth="1" />
  
     <remote name="anandhan07"
-            fetch="https://gitlab.com/anandhan07/aosp-clang/"
+            fetch="https://gitlab.com/anandhan07/"
+            clone-depth="1" />
+  
+    <remote name="xiaomi-msm8953-devs"
+            fetch="https://github.com/xiaomi-msm8953-devs/"
             clone-depth="1" />
 
  <!-- Trees -->
  <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="zynpachi" revision="cr-9.0" />
  <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="zynpachi" revision="cr-9.0" />
- <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="zynpachi" revision="master" />
+ <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_msm8953" remote="xiaomi-msm8953-devs" revision="lineage-18.1" />
 
  <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="anandhan07" revision="17" clone-depth="1" />
