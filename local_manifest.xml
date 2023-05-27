@@ -5,9 +5,9 @@
     <remote name="zynpachi"
             fetch="https://github.com/zynpachi/"
             clone-depth="1" />
-
-    <remote name="GhostMaster69-dev"
-            fetch="https://gitlab.com/GhostMaster69-dev/"
+ 
+    <remote name="anandhan07"
+            fetch="https://gitlab.com/anandhan07/aosp-clang/"
             clone-depth="1" />
 
  <!-- Trees -->
@@ -16,6 +16,6 @@
  <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="zynpachi" revision="master" />
 
  <!-- Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="GhostMaster69-dev" revision="master" />
+ <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="anandhan07" revision="17" clone-depth="1" />
 
 </manifest>
