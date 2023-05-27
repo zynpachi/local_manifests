@@ -9,11 +9,15 @@
     <remote name="GhostMaster69-dev"
             fetch="https://gitlab.com/GhostMaster69-dev/"
             clone-depth="1" />
+ 
+    <remote name="octavi"
+            fetch="https://github.com/OctaviOS-Devices/"
+            clone-depth="1" />
 
  <!-- Trees -->
  <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="zynpachi" revision="cr-9.0" />
  <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="zynpachi" revision="cr-9.0" />
- <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="zynpachi" revision="master" />
+ <project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="octavi" revision="13" />
 
  <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="GhostMaster69-dev" revision="master" />
