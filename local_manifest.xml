@@ -5,10 +5,19 @@
     <remote name="zynpachi"
             fetch="https://github.com/zynpachi/"
             clone-depth="1" />
+ 
+     <remote name="los"
+            fetch="https://github.com/LineageOS/"
+            clone-depth="1" />
 
  <!-- Trees -->
- <project path="device/xiaomi/vince" name="cr_device_xiaomi_vince" remote="zynpachi" revision="cr-9.0" />
- <project path="vendor/xiaomi/vince" name="cr_vendor_xiaomi_vince" remote="zynpachi" revision="cr-9.0" />
- <project path="kernel/xiaomi/vince" name="cr_kernel_xiaomi_vince" remote="zynpachi" revision="cr-9.0" />
-
+ <project path="device/xiaomi/vince" name="cr_device_xiaomi_vince" remote="zynpachi" revision="cr-8.0" />
+ <project path="vendor/xiaomi/vince" name="cr_vendor_xiaomi_vince" remote="zynpachi" revision="cr-8.0" />
+ <project path="kernel/xiaomi/msm8953" name="cr_kernel_xiaomi_vince" remote="zynpachi" revision="cr-8.0" />
+ <project path="device/xiaomi/msm8953-common" name="cr_device_xiaomi_msm8953-common" remote="zynpachi" revision="cr-8.0" />
+ 
+ <!-- AddOns -->
+ https://github.com/LineageOS/android_packages_resources_devicesettings
+ <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" revision="lineage-17.1" />
+ 
 </manifest>
