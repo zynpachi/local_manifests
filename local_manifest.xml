@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Remotes -->
-    <remote name="zynpachi"
-            fetch="https://github.com/zynpachi/"
-            clone-depth="1" />
- 
-     <remote name="los"
-            fetch="https://github.com/LineageOS/"
-            clone-depth="1" />
+       <remote name="zyn"
+	        fetch="https://github.com/zynpachi" />
 
- <!-- Trees -->
- <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="zynpachi" revision="cr-8.0" />
- <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="zynpachi" revision="cr-8.0" />
- <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_vince" remote="zynpachi" revision="cr-8.0" />
- <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="zynpachi" revision="cr-8.0" />
- <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="zynpachi" revision="cr-8.0" />
- 
- <!-- AddOns -->
- <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" revision="lineage-17.1" />
- <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" revision="lineage-17.1" />
- <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="los" revision="lineage-17.1" />
- 
+        <remote  name="Addy"
+                fetch="https://github.com/adnan-44" />
+
+        <remote  name="Uni"
+                fetch="https://github.com/GhostMaster69-dev" />
+
+        <remote name="Starlight"
+	        fetch="https://github.com/starlight5234" />
+
+        <!-- Toolchain -->
+        <remote name="cosmic"
+	        fetch="https://gitlab.com/GhostMaster69-dev/" />
+
+
+        <!-- Trees -->
+        <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="zyn" revision="cr-9.0" clone-depth="1" />
+        <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="zyn" revision="cr-9.0" clone-depth="1" />
+        <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="master" clone-depth="1" />
+       	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="cosmic" revision="release/15.x" clone-depth="1" />
+
+        <!-- Remove Hals & Add Hals -->
+        <remove-project name="LineageOS/android_hardware_qcom_media" />
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio_msm8996-vince" remote="Starlight" revision="r11.0" />
+        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Addy" revision="r11.0" />
+        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media_msm8996-vince" remote="Starlight" revision="r11.0" />
+
+
 </manifest>
