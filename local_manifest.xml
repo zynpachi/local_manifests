@@ -3,25 +3,13 @@
 
        <remote name="zyn"
 	        fetch="https://github.com/zynpachi" />
-
-        <remote  name="Addy"
-                fetch="https://github.com/adnan-44" />
-
-        <remote  name="Uni"
-                fetch="https://github.com/GhostMaster69-dev" />
-
-        <remote name="Starlight"
-	        fetch="https://github.com/starlight5234" />
 	
 	<remote name="los"
 	        fetch="https://github.com/LineageOS" />
-	
-        <remote name="Anandhan"
-	        fetch="https://gitlab.com/anandhan07/" />
 
         <!-- Toolchain -->
-        <remote name="cosmic"
-	        fetch="https://gitlab.com/GhostMaster69-dev/" />
+        <remote name="Anandhan"
+	        fetch="https://gitlab.com/anandhan07/" />
 
 
         <!-- Trees -->
