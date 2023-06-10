@@ -36,9 +36,8 @@
         <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media_msm8996-vince" remote="Starlight" revision="r11.0" />
 	
 	 <!-- AddOns -->
-	 <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" revision="lineage-17.1" />
-	 <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" revision="lineage-17.1" />
-	 <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="los" revision="lineage-17.1" />
-
+	 <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" revision="lineage-18.1" />
+	 <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" revision="lineage-18.1" />
+	 <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="los" revision="lineage-18.1" />
 
 </manifest>
