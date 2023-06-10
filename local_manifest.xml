@@ -28,9 +28,9 @@
        	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="cosmic" revision="release/15.x" clone-depth="1" />
 
         <!-- Remove Hals & Add Hals -->
-        <remove-project name="LineageOS/android_hardware_qcom_media" />
-        <remove-project name="LineageOS/android_hardware_qcom_display" />
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <remove-project name="CarbonROM/android_hardware_qcom_media" />
+        <remove-project name="CarbonROM/android_hardware_qcom_display" />
+        <remove-project name="CarbonROM/android_hardware_qcom_audio" />
         <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio_msm8996-vince" remote="Starlight" revision="r11.0" />
         <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Addy" revision="r11.0" />
         <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media_msm8996-vince" remote="Starlight" revision="r11.0" />
