@@ -26,7 +26,7 @@
 
         <!-- Trees -->
         <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="zyn" revision="cr-9.0" clone-depth="1" />
-        <project path="vendor/xiaomi/vince" name="android_xiaomi_vince" remote="zyn" revision="cr-9.0" clone-depth="1" />
+        <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="zyn" revision="cr-9.0" clone-depth="1" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="zyn" revision="master" clone-depth="1" />
        	<project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="Anandhan" revision="17" clone-depth="1" />
 
