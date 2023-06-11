@@ -17,7 +17,7 @@
         <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="zyn" revision="cr-8.0" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="zyn" revision="cr-8.0" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="zyn" revision="cr-8.0" clone-depth="1" />
-        <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_vince" remote="zyn" revision="master" clone-depth="1" />
+        <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="zyn" revision="master" clone-depth="1" />
  
         <!-- Clang -->
        	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="cosmic" revision="master" clone-depth="1" />
