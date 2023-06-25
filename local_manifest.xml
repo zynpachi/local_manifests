@@ -4,7 +4,7 @@
     <remote name="zyn" fetch="https://github.com/zynpachi" revision="10" />
     <remote name="los" fetch="https://github.com/LineageOS" revision="lineage-17.1" />
 
-    <project path="kernel/xiaomi/riva" name="kernel_xiaomi_riva" remote="zyn" />
+    <project path="kernel/xiaomi/msm8917" name="kernel_xiaomi_riva" remote="zyn" />
     <project path="device/xiaomi/riva" name="device_xiaomi_riva" remote="zyn" />
     <project path="vendor/xiaomi/riva" name="vendor_xiaomi_riva" remote="zyn" />
 
