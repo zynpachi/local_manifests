@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<<<<<<< Updated upstream
          <remote name="zyn"
 	        fetch="https://github.com/zynpachi" />
 	
 	        <remote name="los"
 	        fetch="https://github.com/LineageOS" />
+=======
+    <remote name="zyn" fetch="https://github.com/zynpachi" revision="lineage-17.1" />
+>>>>>>> Stashed changes
 
         <!-- Toolchain -->
         <remote name="cosmic"
